@@ -252,7 +252,7 @@ TDD 是先写测试，再实现功能。好处是实现只会刚好满足测试�
 static int main_ret = 0;
 static int test_count = 0;
 static int test_pass = 0;
-
+//此处EXPECT_EQ_BASE中EXPECT_EQ意为判断相等的断言，其使用来自gtest
 #define EXPECT_EQ_BASE(equality, expect, actual, format) \
     do {\
         test_count++;\
