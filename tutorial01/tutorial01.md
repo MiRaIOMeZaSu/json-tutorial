@@ -311,7 +311,7 @@ else
     c();
 
 /* 预处理后 */
-
+/*此处“cond”为condition的缩写*/
 if (cond)
     a(); b(); /* b(); 在 if 之外     */
 else          /* <- else 缺乏对应 if */
